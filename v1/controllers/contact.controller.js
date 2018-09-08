@@ -10,7 +10,7 @@ module.exports = {
         console.log('============');
         console.log(req.body)
         const msg = {
-            to: 'vignesh.narayanan@mediaplex.co.in',
+            to: 'pooja.anoj@mediaplex.co.in',
             from: 'customersupport@nmccx.com',
             subject: 'contactUs',
             html: '<p><b>Name:</b>'+req.body.name+'<br><b>EmailId:</b>'+req.body.emailId+'<br><b>Mobile No.:</b>'+req.body.mobileNo+'<br><b>Message.:</b>'+req.body.message+'</p>',

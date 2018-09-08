@@ -11,7 +11,7 @@ module.exports = {
         console.log(req.body)
         if(req.body.membertype==6){
         const msg = {
-            to: 'vignesh.narayanan@mediaplex.co.in',
+            to: 'pooja.anoj@mediaplex.co.in',
             from: 'customersupport@nmccx.com',
             subject: 'Pcm leads',
             html: '<p><b>Name:</b>' + req.body.name + '<br><b>EmailId:</b>' + req.body.emailId + '<br><b>Mobile No.:</b>' + req.body.mobileNo + '<br><b>Address.:</b>' + req.body.address + '<br><b>Country:</b>' + req.body.country + '<br><b>State:</b>' + req.body.state +'<br><b>City:</b>' + req.body.city +'<br><b>pincode:</b>' + req.body.pincode +'<br><b>Member For:</b>Pcm<br><b>Higher Education:</b>' + req.body.high_edu +'<br><b>Experience:</b>' + req.body.experience +'<br><b>Firm Name:</b>' + req.body.firmname +'</p>',
