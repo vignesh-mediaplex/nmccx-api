@@ -1,8 +1,7 @@
 // var model = require('../models');
 var response = require('responses/response');
 const sgMail = require('@sendgrid/mail');
-// SENDGRID_API_KEY = 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
-// sgMail.setApiKey(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);
+
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 module.exports = {
